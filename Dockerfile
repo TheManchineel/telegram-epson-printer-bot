@@ -18,7 +18,7 @@ RUN apk add --no-cache gcc libffi-dev musl-dev && \
     poetry install --no-dev --no-root && \
     poetry build
 
-FROM BASE as final
+FROM base as final
 COPY --from=builder /app/dist /app/dist
 RUN pip install /app/dist/*.whl
 CMD ["python", "-m", "telegram_epson_printer_bot"]
