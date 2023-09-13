@@ -35,7 +35,7 @@ async def incoming_pdf_handler(update: Update, context: ContextTypes.DEFAULT_TYP
     keys_to_try = []
     if path.isfile(KEY_FILE):
         with open(KEY_FILE, "r") as keys_file:
-            keys_to_try.extend(keys_file.splitlines())
+            keys_to_try.extend(keys_file.read().splitlines())
     if update.message.caption:
         keys_to_try.insert(0, update.message.caption)
 
