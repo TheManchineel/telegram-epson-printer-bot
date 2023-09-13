@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd $(dirname $0)
+
+export TELEGRAM_BOT_TOKEN="1234567890:ABCdefghijklmnopqrstuvwxyz1234567890"
+export TELEGRAM_ALLOWED_CHAT_IDS="1234567890,0987654321"
+export EPSON_CONNECT_API_PRINTER_EMAIL="abcd1234@print.epsonconnect.com"
+export EPSON_CONNECT_API_CLIENT_ID="673b8cd8396944cca8716f868b4ea44e"
+export EPSON_CONNECT_API_CLIENT_SECRET="DUF+Zwjiw+aCEG+FTC6b+Ih+6F6KEYLMea8FoVykbN8ekV+zkPk/ZpCcnXyDEYEt"
+
+poetry run python ./telegram_epson_printer_bot/

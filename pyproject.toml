@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "telegram-epson-printer-bot"
+version = "0.1.0"
+description = ""
+authors = ["TheManchineel <37479927+TheManchineel@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pypdf = "^3.16.0"
+python-telegram-bot = "^20.5"
+requests = "^2.31.0"
+epson-connect = "^0.2.3"
+pycryptodome = "^3.18.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.6.1"]
+build-backend = "poetry.core.masonry.api"
