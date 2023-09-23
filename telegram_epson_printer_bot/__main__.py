@@ -28,7 +28,7 @@ with open(path.join(LOCALE_DIR, "en.json"), "r") as translations_file:
 
 
 def _(key, *args):
-    translations.get(key, key).format(*args)
+    return translations.get(key, key).format(*args)
 
 
 TELEGRAM_ALLOWED_CHAT_IDS = [
