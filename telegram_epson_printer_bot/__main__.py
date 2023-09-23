@@ -19,7 +19,7 @@ KEY_FILE = "./keys.txt"
 LOCALE_DIR = path.join(path.dirname(__file__), "lang")
 LANGUAGE = environ.get("TELEGRAM_BOT_LANGUAGE", "en")
 
-with open(path.join(LOCALE_DIR, "en.json"), "r") as translations_file:
+with open(path.join(LOCALE_DIR, f"{LANGUAGE}.json"), "r") as translations_file:
     try:
         translations: dict = json.load(translations_file)
     except FileNotFoundError:
