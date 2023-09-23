@@ -1,0 +1,7 @@
+{
+    "chat_not_allowed": "Dieser Bot ist nicht für diesen Chat aktiviert.\nChat-ID: {}",
+    "processing_pdf": "Verarbeite PDF...",
+    "pdf_decrypted": "PDF erfolgreich entschlüsselt!",
+    "no_key_worked": "Kein bereitgestellter Schlüssel hat funktioniert. Bitte schreiben Sie den PDF-Schlüssel in die Nachrichtenbeschriftung.",
+    "pdf_printing": "Das PDF wird jetzt gedruckt! (Job-ID: {})"
+}

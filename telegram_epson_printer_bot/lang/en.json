@@ -1,0 +1,7 @@
+{
+    "chat_not_allowed": "This bot is not enabled for this chat.\nChat ID: {}",
+    "processing_pdf": "Processing PDF...",
+    "pdf_decrypted": "PDF successfully decrypted!",
+    "no_key_worked": "No provided key worked. Please write the PDF key in the message caption.",
+    "pdf_printing": "The PDF is now printing! (Job ID: {})"
+}
