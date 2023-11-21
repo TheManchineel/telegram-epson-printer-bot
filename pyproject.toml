@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pypdf = "^3.16.0"
+pypdf = "^3.17.0"
 python-telegram-bot = "^20.5"
 requests = "^2.31.0"
 epson-connect = "^0.2.3"
