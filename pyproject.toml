@@ -11,7 +11,7 @@ pypdf = "^3.17.0"
 python-telegram-bot = "^20.5"
 requests = "^2.31.0"
 epson-connect = "^0.2.3"
-pycryptodome = "^3.18.0"
+pycryptodome = "^3.19.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
